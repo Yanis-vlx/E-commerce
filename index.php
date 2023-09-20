@@ -3,84 +3,18 @@
 
 <head>
   <meta charset="UTF-8">
-  <link rel="stylesheet" href="css/style.css">
   <link rel="stylesheet" href="css/footer.css">
+  <link rel="stylesheet" href="css/style.css">
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400,500,600,700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
   <title>E-commerce</title>
 </head>
 
 <body>
-  <div class="header">
-    <div class="container">
-      <div class="navbar">
-        <div class="logo">
-          <img src="images/logo.png" width="125px">
-        </div>
-        <nav>
-          <ul>
-            <div class="navbar">
-              <a href="index.html">Acceuil</a>
-              <div class="dropdown">
-                <button class="dropbtn">CLUB
-                  <i class="fa fa-caret-down"></i>
-                </button>
-                <div class="dropdown-content">
-                  <a href="valeur_et_engagement.html">Valeur et engagement</a>
-                  <a href="#">l'histoire</a>
-                  <a href="#">les équipes</a>
-                  <a href="#">liste des partenaires</a>
-                </div>
-              </div>
-              <div class="dropdown">
-                <button class="dropbtn">Actualités
-                  <i class="fa fa-caret-down"></i>
-                </button>
-                <div class="dropdown-content">
-                  <a href="#">Nos Match</a>
-                  <a href="#">Nos Actions</a>
-                </div>
-              </div>
-              <div class="dropdown">
-                <button class="dropbtn">Nous Rejoindre
-                  <i class="fa fa-caret-down"></i>
-                </button>
-                <div class="dropdown-content">
-                  <a href="#">Devenez Joueur</a>
-                  <a href="#">Devenez partenaires</a>
-                  <a href="#">Soutenez Nous</a>
-                </div>
-              </div>
-              <div class="dropdown">
-                <button class="dropbtn">Boutique
-                  <i class="fa fa-caret-down"></i>
-                </button>
-                <div class="dropdown-content">
-                  <a href="#">Goodies</a>
-                  <a href="#">Accessoires</a>
-                  <a href="#">Enssemble</a>
-                </div>
-              </div>
-              <a href="#news">Billeterie</a>
-            </div>
-          </ul>
-        </nav>
-        <img src="images/cart.png" width="30px" height="30px">
-      </div>
-      <div class="row">
-        <div class="col-2">
-          <h1>Donnez-vous un nouveau <br> style d'entraînement !</h1>
-          <p>Le succès n'est pas toujours une question de grandeur. <br> c'est une question de cohérence. un
-            travail acharné et constant permet de réussir. la grandeur viendra.</p>
-          <a href="" class="btn">Explorer Maintenant &#8594;</a>
-        </div>
-        <div class="col-2">
-          <img src="images/image1.png">
-
-        </div>
-      </div>
-    </div>
-  </div>
+  <?php
+      include('layout/header.php');
+  ?>
+  
   <!------ featured categories ------>
   <div class="categories">
     <div class="small-container">
@@ -330,53 +264,8 @@
       </div>
     </div>
   </div>
-
-  <!------------Footer----------->
-  <div class="footer">
-    <div class="container">
-      <div class="row">
-        <div class="footer-col-1">
-          <h3> Download Our App</h3>
-          <p> Download App for Android and ios mobile phone.</p>
-          <div class="app-logo">
-            <img src="images/play-store.png">
-            <img src="images/app-store.png">
-          </div>
-        </div>
-        <div class="footer-col-2">
-          <img src="images/logo-white.png">
-          <p> notre ambition est de rendre durablement accessible au plus grand nombre le plaisir et les bienfaits du
-            sport.</p>
-        </div>
-        <div>
-          <div class="footer-col-3">
-            <h3>useful Links</h3>
-            <ul>
-              <li>Coupons</li>
-              <li>Blog Post</li>
-              <li>Return Policy</li>
-              <!-- <li>Join Affiliate</li> -->
-  
-            </ul>
-            
-          </div>
-          <div class="footer-col-4">
-            <h3>Follow use</h3>
-            <ul>
-              <li>facebook</li>
-              <li>twitter</li>
-              <li>instagram</li>
-              <li>youtube</li>
-  
-            </ul>
-          </div>
-        </div>
-        
-      </div>
-      <hr>
-      <p class="Copyright">Copyright 2023</p>
-    </div>
-  </div>
+  <?php
+      include('layout/header.php');
+  ?>
 </body>
-
 </html>
