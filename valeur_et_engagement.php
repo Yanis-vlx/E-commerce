@@ -5,6 +5,7 @@
   <meta charset="UTF-8">
   <link rel="stylesheet" href="css/style.css">
   <link rel="stylesheet" href="css/footer.css">
+  <link rel="stylesheet" href="css/header.css">
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400,500,600,700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
   <title>Valeur et Engagement</title>
@@ -82,6 +83,9 @@
       <p>Le Conseil d'administration fait preuve de transparence quant à ses activités et aux décisions prises. Les PV des réunions sont distribués <br>aux membres de du CA.</p>
     </div>
   </div>
+  <?php
+      include('layout/footer.php');
+  ?>
 </body>
 
 </html>
